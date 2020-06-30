@@ -1,0 +1,315 @@
+
+* {
+	 margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     font-size: 100%;
+     vertical-align: baseline;
+     background: transparent;
+}
+.fullpage {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.navRight {
+	
+	width: 100%;
+}
+
+.navRight a {
+	    float: right;
+    color: #6C63FF;
+    font-size: 15px;
+    font-family: Segoe UI;
+    margin-top: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.nav {
+	display: flex;
+}
+
+.nav h1 {
+   width: 100%;
+   color: #6C63FF;
+   font-size: 15px;
+   font-family: Segoe UI;
+   margin-top: 30px;
+}
+
+.landingContent {
+}
+
+.mainh {
+	   color: #707070;
+    font-size: 25px;
+    font-family: Segoe UI;
+    margin-top: 70px;
+
+}
+
+.line {
+	margin-top: 10px;
+	width: 20%;
+}
+
+.para1 {
+	color: #4A4A4A;
+	margin-right: 50px;
+	font-family: Segoe UI;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.buttons {
+	background-image: url(../images/spot.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: ;
+	display: flex;
+}
+
+
+.donateBtn {
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	background-color: #6C63FF;
+	color: white;
+	
+	border-radius: 20px;
+	transition: 1s;
+
+}
+
+.receiveBtn {
+	padding: 10px;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	background-color: #6C63FF;
+	color: white;
+	
+	border-radius: 20px;
+	transition: 1s;
+}
+
+.donateBtn:hover, .receiveBtn:hover {
+	cursor: pointer;
+	border-radius: 0px;
+}
+
+.landingRight {
+	background-image: url(../images/landing.svg);	
+	width: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.heart {
+	width: 50px;
+	margin-left: 220px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	height: 50px;
+}
+
+.singleFeature {
+	display: flex;
+}
+
+.leftContent {
+	margin-left: 5%;
+}
+
+.featureImage {
+	width: 70%;
+}
+
+.feath {
+	color: #707070;
+	font-size: 40px;
+	font-family: Segoe UI;
+	margin-top: 100px;
+}
+
+.fline {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.fpara {
+	color: #4A4A4A;
+	margin-right: 50px;
+	font-size: 25px;
+	font-family: Segoe UI;
+	font-weight: 600;
+}
+
+
+/*Desktop*/
+@media only screen and (min-width: 768px){
+* {
+	 margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     font-size: 100%;
+     vertical-align: baseline;
+     background: transparent;
+}
+
+.fullpage {
+	margin-left: 80px;
+}
+.navRight {
+	
+	width: 100%;
+}
+
+.navRight a {
+	float: right;
+	color: #6C63FF;
+	font-size: 25px;
+	font-family: Segoe UI;
+	margin-top: 30px;
+	margin-right: 60px;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.nav {
+	display: flex;
+}
+
+.nav h1 {
+   width: 100%;
+   color: #6C63FF;
+   font-size: 30px;
+   font-family: Segoe UI;
+   margin-top: 30px;
+}
+
+.landingContent {
+	display: flex;
+}
+
+.mainh {
+	color: #707070;
+	font-size: 50px;
+	font-family: Segoe UI;
+	margin-top: 150px;
+}
+
+.line {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.para1 {
+	color: #4A4A4A;
+	margin-right: 50px;
+	font-size: 25px;
+	font-family: Segoe UI;
+	font-weight: 600;
+}
+
+.buttons {
+	background-image: url(../images/spot.png);
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 330px;
+}
+
+
+.donateBtn {
+	margin-top: 40px;
+	margin-right: 10px;
+	background-color: #6C63FF;
+	color: white;
+	width: 100px;
+	height: 35px;
+	border-radius: 20px;
+	transition: 1s;
+
+}
+
+.receiveBtn {
+	margin-left: 10px;
+	margin-top: 40px;
+	margin-right: 10px;
+	background-color: #6C63FF;
+	color: white;
+	width: 100px;
+	height: 35px;
+	border-radius: 20px;
+	transition: 1s;
+}
+
+.donateBtn:hover, .receiveBtn:hover {
+	cursor: pointer;
+	border-radius: 0px;
+}
+
+.landingRight {
+	background-image: url(../images/landing.svg);	
+	width: 900px;
+	height: 613px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 20px;
+}
+
+.heart {
+	width: 180px;
+	margin-left: 220px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	height: 150px;
+}
+
+.singleFeature {
+	display: flex;
+}
+
+.leftContent {
+	margin-left: 5%;
+}
+
+.featureImage {
+	width: 70%;
+}
+
+.feath {
+	color: #707070;
+	font-size: 40px;
+	font-family: Segoe UI;
+	margin-top: 100px;
+}
+
+.fline {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.fpara {
+	color: #4A4A4A;
+	margin-right: 50px;
+	font-size: 25px;
+	font-family: Segoe UI;
+	font-weight: 600;
+}
+}
