@@ -83,7 +83,7 @@
 	margin-right: 10px;
 	background-color: #6C63FF;
 	color: white;
-	
+	font-family: Segoe UI;
 	border-radius: 20px;
 	transition: 1s;
 
@@ -97,14 +97,12 @@
 	margin-right: 10px;
 	background-color: #6C63FF;
 	color: white;
-	
+	font-family: Segoe UI;
 	border-radius: 20px;
-	transition: 1s;
 }
 
 .donateBtn:hover, .receiveBtn:hover {
 	cursor: pointer;
-	border-radius: 0px;
 }
 
 .landingRight {
@@ -260,7 +258,6 @@
 
 .donateBtn:hover, .receiveBtn:hover {
 	cursor: pointer;
-	border-radius: 0px;
 }
 
 .landingRight {
