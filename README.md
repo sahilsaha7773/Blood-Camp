@@ -1,2 +1,2 @@
 # Blood Camp
-This is the l anding page for [Blood Camp](https://github.com/sahilsaha7773/Blood-Camp-back-end).
+This is the landing page for [Blood Camp](https://github.com/sahilsaha7773/Blood-Camp-back-end).
